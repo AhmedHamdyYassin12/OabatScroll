@@ -16,6 +16,11 @@ const Item = (props) => {
         companyName={props.companyName}
         companyAddress={props.companyAddress}
         companyResponse={props.companyResponse}
+        responseLimit={props.responseLimit}
+        positionTitle={props.positionTitle}
+        openingsOptions={props.openingsOptions}
+        HRPhoto={props.HRPhoto}
+        HRName={props.HRName}
       />
     </ItemContainer>
   );

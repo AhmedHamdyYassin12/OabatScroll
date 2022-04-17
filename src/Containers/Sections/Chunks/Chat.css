@@ -1,0 +1,36 @@
+.chat .chat-containt {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.chatIcon {
+    font-size: 20px;
+}
+
+.hrLogo {
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 30px;
+    top: -175px;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+.hrName {
+    position: absolute;
+    font-size: 15px;
+    top: -7px;
+    left: 70px;
+    width: fit-content;
+}
+
+.zumChat {
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 10px;
+}

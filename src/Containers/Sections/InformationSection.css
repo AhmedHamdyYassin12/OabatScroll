@@ -25,6 +25,12 @@
     color: white;
 }
 
+.iconFav {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
 .info .fav .bookmark {
     padding-top: 10px;
     color: white;
@@ -47,10 +53,11 @@
 }
 
 .chat {
-    margin: 30px auto;
-    padding: 10px;
+    margin: 20px auto;
+    margin-top: 15px;
+    padding: 8px;
     padding-bottom: 2px;
-    padding-top: 14px;
+    padding-top: 10px;
     width: 80%;
     background-color: #eee;
     border-radius: 20px;
@@ -65,16 +72,20 @@
 
 .chat .response {
     text-align: left;
-    margin-top: 5px;
-    padding-left: 10px;
+    margin-top: 0px;
+    padding-left: 70px;
+}
+
+.chatIcon {
+    font-size: 20px;
 }
 
 .ausbildung {
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 10px;
     padding-bottom: 2px;
     padding-top: 14px;
-    width: 80%;
+    width: 82%;
     background-color: #eee;
     border-radius: 20px;
     text-align: left;
@@ -82,12 +93,12 @@
 
 .ausbildung-containt {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     column-gap: 40%;
 }
 
 .ausbildung-containt .title {
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .ausbildung .position {
