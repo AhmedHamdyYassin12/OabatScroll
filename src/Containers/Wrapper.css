@@ -1,0 +1,24 @@
+.wrapper {
+    height: 520px;
+    /* border: 1px solid aqua; */
+    display: flex;
+    cursor: default;
+    overflow: auto;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+
+.wrapper-webkit-scrollbar-thumb {
+    background: #999;
+    border: 3px solid #e6e6e6;
+    border-radius: 7px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-left: 1px solid #dadada;
+}
