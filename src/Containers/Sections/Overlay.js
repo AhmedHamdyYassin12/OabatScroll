@@ -6,7 +6,7 @@ const Overlay = (props) => {
   const [clickable, setClickable] = useState(false);
   const closeOverlayListener = () => {
     setClickable(!clickable);
-    console.log("i am closing now" + clickable);
+    // props.onOverlay(clickable);
   };
   return (
     <span className={`overlayOptions ${clickable ? "close" : ""}`}>
@@ -17,7 +17,13 @@ const Overlay = (props) => {
         onClick={closeOverlayListener}
       ></FontAwesomeIcon>
       <div>
-        <p className="positionTitle">{props.positionTitle}</p>
+        {props.positionTitle.map((position, index) => {
+          return (
+            <p key={index} className="positionTitle">
+              {position}
+            </p>
+          );
+        })}
       </div>
     </span>
   );

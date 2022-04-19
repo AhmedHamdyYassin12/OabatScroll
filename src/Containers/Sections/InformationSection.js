@@ -12,7 +12,6 @@ const InformationSection = (props) => {
   const [clickable, setClickable] = useState(0);
 
   const onfavListener = () => {
-    console.log("" + props.openingsOptions);
     setFav(!favOrNot);
   };
 
@@ -20,7 +19,7 @@ const InformationSection = (props) => {
     setClickable(!clickable);
     props.onClickWeiter(clickable);
   };
-
+  console.log("check overlay " + props.OverlayClick);
   return (
     <div className="info">
       <div className="fav">
@@ -71,7 +70,7 @@ const InformationSection = (props) => {
               onOtherOptions={onOtherOptionsListener}
             />
           </div>
-          <p className="position">{props.positionTitle}</p>
+          <p className="position">{props.positionTitle[0]}</p>
         </div>
       </div>
     </div>
