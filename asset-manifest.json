@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/OabatScroll/static/css/main.e5f8042b.css",
+    "main.js": "/OabatScroll/static/js/main.e0088987.js",
+    "static/js/787.212c1a01.chunk.js": "/OabatScroll/static/js/787.212c1a01.chunk.js",
+    "static/media/hober.webp": "/OabatScroll/static/media/hober.16f063a9783fe0ea49aa.webp",
+    "static/media/Klinikum.webp": "/OabatScroll/static/media/Klinikum.74011172b5a61acd9fab.webp",
+    "static/media/hober_HR.webp": "/OabatScroll/static/media/hober_HR.ed1108090d6c8d6532cd.webp",
+    "static/media/hober_logo.webp": "/OabatScroll/static/media/hober_logo.2b7dc9a76271da8132ae.webp",
+    "static/media/klinikum_logo.webp": "/OabatScroll/static/media/klinikum_logo.207ed3711334d246a0c0.webp",
+    "index.html": "/OabatScroll/index.html",
+    "main.e5f8042b.css.map": "/OabatScroll/static/css/main.e5f8042b.css.map",
+    "main.e0088987.js.map": "/OabatScroll/static/js/main.e0088987.js.map",
+    "787.212c1a01.chunk.js.map": "/OabatScroll/static/js/787.212c1a01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5f8042b.css",
+    "static/js/main.e0088987.js"
+  ]
+}
