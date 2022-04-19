@@ -1,7 +1,7 @@
 .item {
     position: relative;
+    overflow: hidden;
     top: 150px;
-    overflow: auto;
     min-width: 400px;
     height: 490px;
     text-align: center;
@@ -12,22 +12,19 @@
     border-radius: 20px;
     transition: 0.5s;
     animation-name: example;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
 }
 
 .item:hover {
     transition: 0.2s;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.03, 1.03);
 }
 
 @keyframes example {
     0% {
         top: 100px;
-    }
-    50% {
-        top: 50px;
     }
     100% {
         top: 10px;

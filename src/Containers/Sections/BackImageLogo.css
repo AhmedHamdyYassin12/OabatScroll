@@ -29,7 +29,7 @@
     top: -175px;
     background-color: white;
     overflow: auto;
-    z-index: 1;
+    z-index: 1001;
 }
 
 .logo img {

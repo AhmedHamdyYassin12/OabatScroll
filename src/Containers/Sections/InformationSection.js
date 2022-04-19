@@ -9,10 +9,18 @@ import "./InformationSection.css";
 
 const InformationSection = (props) => {
   const [favOrNot, setFav] = useState(false);
+  const [clickable, setClickable] = useState(0);
+
   const onfavListener = () => {
-    console.log("" + favOrNot);
+    console.log("" + props.openingsOptions);
     setFav(!favOrNot);
   };
+
+  const onOtherOptionsListener = () => {
+    setClickable(!clickable);
+    props.onClickWeiter(clickable);
+  };
+
   return (
     <div className="info">
       <div className="fav">
@@ -22,13 +30,11 @@ const InformationSection = (props) => {
             <FontAwesomeIcon
               icon={faHeartCircleCheck}
               className="bookmark"
-              onClick={onfavListener}
             ></FontAwesomeIcon>
           ) : (
             <FontAwesomeIcon
               icon={faHeart}
               className="bookmark"
-              onClick={onfavListener}
             ></FontAwesomeIcon>
           )}
         </div>
@@ -38,14 +44,14 @@ const InformationSection = (props) => {
           <h3 className="company">{props.companyName}</h3>
           <div>
             <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
-            <span>{" " + props.companyAddress}</span>
+            <span className="companyAddress">{" " + props.companyAddress}</span>
           </div>
         </div>
 
         <div className="chat">
           <Chat HRPhoto={props.HRPhoto} HRName={props.HRName} />
           <p
-            className="response"
+            className={`response`}
             style={
               props.companyResponse <= 4
                 ? { color: "green" }
@@ -60,7 +66,10 @@ const InformationSection = (props) => {
         <div className="ausbildung">
           <div className="ausbildung-containt">
             <span className="title">Ausbildung</span>
-            <Weitere openingsOptions={props.openingsOptions} />
+            <Weitere
+              openingsOptions={props.openingsOptions}
+              onOtherOptions={onOtherOptionsListener}
+            />
           </div>
           <p className="position">{props.positionTitle}</p>
         </div>

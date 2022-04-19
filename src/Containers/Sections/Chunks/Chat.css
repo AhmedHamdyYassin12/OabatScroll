@@ -19,6 +19,12 @@
     background-color: white;
     overflow: auto;
     z-index: 1;
+    transition: 0.5s;
+}
+
+.hrLogo:hover {
+    box-shadow: 0 0 15px gray;
+    transform: scale(1.2, 1.2);
 }
 
 .hrName {
