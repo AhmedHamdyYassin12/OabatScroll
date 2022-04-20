@@ -27,6 +27,30 @@
     transform: scale(1.2, 1.2);
 }
 
+.hrLettersLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 30px;
+    top: -175px;
+    background-color: blueviolet;
+    overflow: auto;
+    z-index: 1;
+    transition: 0.5s;
+    color: white;
+    font-weight: light;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hrLettersLogo:hover {
+    box-shadow: 0 0 15px gray;
+    transform: scale(1.2, 1.2);
+}
+
 .hrName {
     position: absolute;
     font-size: 15px;

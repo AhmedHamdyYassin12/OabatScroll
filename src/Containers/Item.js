@@ -7,7 +7,6 @@ import Overlay from "./Sections/Overlay";
 const Item = (props) => {
   const [clickable, setClickable] = useState(0);
   const onWeiterListner = (clickValue) => {
-    console.log("click value is" + clickValue);
     setClickable(!clickable);
   };
 

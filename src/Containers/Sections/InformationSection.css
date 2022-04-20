@@ -102,6 +102,12 @@
     padding-left: 70px;
 }
 
+.chat .trimFunction {
+    padding-left: 14px;
+    padding-top: 10px;
+    text-align: left;
+}
+
 .chatIcon {
     font-size: 20px;
     transition: 0.5s;

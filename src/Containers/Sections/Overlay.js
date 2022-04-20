@@ -6,7 +6,6 @@ const Overlay = (props) => {
   const [clickable, setClickable] = useState(false);
   const closeOverlayListener = () => {
     setClickable(!clickable);
-    // props.onOverlay(clickable);
   };
   return (
     <span className={`overlayOptions ${clickable ? "close" : ""}`}>

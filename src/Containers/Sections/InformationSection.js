@@ -19,7 +19,6 @@ const InformationSection = (props) => {
     setClickable(!clickable);
     props.onClickWeiter(clickable);
   };
-  console.log("check overlay " + props.OverlayClick);
   return (
     <div className="info">
       <div className="fav">
@@ -50,7 +49,7 @@ const InformationSection = (props) => {
         <div className="chat">
           <Chat HRPhoto={props.HRPhoto} HRName={props.HRName} />
           <p
-            className={`response`}
+            className={`response ${props.HRName ? "" : "trimFunction"}`}
             style={
               props.companyResponse <= 4
                 ? { color: "green" }
