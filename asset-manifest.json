@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/OabatScroll/static/css/main.e5f8042b.css",
-    "main.js": "/OabatScroll/static/js/main.e0088987.js",
+    "main.css": "/OabatScroll/static/css/main.ef2acbf9.css",
+    "main.js": "/OabatScroll/static/js/main.1e8b73dc.js",
     "static/js/787.212c1a01.chunk.js": "/OabatScroll/static/js/787.212c1a01.chunk.js",
     "static/media/hober.webp": "/OabatScroll/static/media/hober.16f063a9783fe0ea49aa.webp",
+    "static/media/nikola.webp": "/OabatScroll/static/media/nikola.6460533d4cd88ba2957e.webp",
+    "static/media/beutlhauser.webp": "/OabatScroll/static/media/beutlhauser.764d93fa812bc75c835b.webp",
+    "static/media/zweirad.webp": "/OabatScroll/static/media/zweirad.6d698238decb8ad837fd.webp",
     "static/media/Klinikum.webp": "/OabatScroll/static/media/Klinikum.74011172b5a61acd9fab.webp",
+    "static/media/mymuesli.webp": "/OabatScroll/static/media/mymuesli.48130213d17dac0f79c5.webp",
+    "static/media/DummyHR.webp": "/OabatScroll/static/media/DummyHR.3cb989d164aad99638ef.webp",
     "static/media/hober_HR.webp": "/OabatScroll/static/media/hober_HR.ed1108090d6c8d6532cd.webp",
+    "static/media/zweirad_logo.webp": "/OabatScroll/static/media/zweirad_logo.a5d0683c18a08e863beb.webp",
+    "static/media/beutlhauser_logo.webp": "/OabatScroll/static/media/beutlhauser_logo.1e56702509466779cef3.webp",
+    "static/media/nikola_logo.webp": "/OabatScroll/static/media/nikola_logo.ab5e47069eaf647efa7d.webp",
     "static/media/hober_logo.webp": "/OabatScroll/static/media/hober_logo.2b7dc9a76271da8132ae.webp",
     "static/media/klinikum_logo.webp": "/OabatScroll/static/media/klinikum_logo.207ed3711334d246a0c0.webp",
+    "static/media/mymuseli_logo.webp": "/OabatScroll/static/media/mymuseli_logo.ae4e49351c3d988fd481.webp",
     "index.html": "/OabatScroll/index.html",
-    "main.e5f8042b.css.map": "/OabatScroll/static/css/main.e5f8042b.css.map",
-    "main.e0088987.js.map": "/OabatScroll/static/js/main.e0088987.js.map",
+    "main.ef2acbf9.css.map": "/OabatScroll/static/css/main.ef2acbf9.css.map",
+    "main.1e8b73dc.js.map": "/OabatScroll/static/js/main.1e8b73dc.js.map",
     "787.212c1a01.chunk.js.map": "/OabatScroll/static/js/787.212c1a01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5f8042b.css",
-    "static/js/main.e0088987.js"
+    "static/css/main.ef2acbf9.css",
+    "static/js/main.1e8b73dc.js"
   ]
 }
